@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <b-grid>
-      <b-row>
+      <b-row id="navbar">
         <b-col>
           <Header />
         </b-col>
       </b-row>
-      <b-row class="text-center">
+      <b-row class="text-center" id="body">
         <b-col>
           <router-view/>
         </b-col>
@@ -26,4 +26,10 @@ export default {
 }
 </script>
 <style scoped>
+
+#navbar {
+  position: sticky;
+  top: 0;
+  z-index:2;
+}
 </style>
