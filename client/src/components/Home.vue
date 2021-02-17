@@ -3,32 +3,12 @@
         <b-grid>
             <b-row>
                 <b-col>
-                    <span>Haha</span>
+                    <img :src="getPath" alt="picture"/>
                 </b-col>
             </b-row>
             <b-row>
                 <b-col>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus turpis sapien, ac iaculis urna ultricies eu. Aliquam leo nulla, fringilla vitae nibh a, dignissim volutpat sapien. Curabitur quam justo, eleifend a metus quis, gravida eleifend arcu. Nam vestibulum posuere lorem sed vehicula. Ut tincidunt velit vitae metus volutpat mollis. Donec rutrum ligula tortor, vitae gravida ex fermentum ac. Nulla luctus justo non arcu ullamcorper, et mattis elit ullamcorper. Etiam luctus urna sed nulla aliquet, eu dictum augue gravida. Aenean egestas risus eu magna lobortis pulvinar. Suspendisse faucibus diam sed eros accumsan fermentum. Duis a lacus a metus interdum varius at et metus.
-
-Praesent dictum eget felis eget tristique. Sed turpis nisi, fermentum nec interdum a, mattis ut tellus. Aenean pellentesque elit at volutpat faucibus. Donec malesuada sit amet tellus eget hendrerit. Praesent vel ipsum nec metus condimentum mattis. Nunc sed erat semper, blandit lacus nec, feugiat diam. Duis dictum nisi non ornare porttitor. Aliquam dictum sapien ut velit luctus eleifend. Phasellus eget ultricies felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer viverra, risus sed vestibulum tincidunt, quam odio laoreet nibh, sit amet convallis ex arcu ac turpis. Proin sit amet porttitor elit. Mauris et facilisis enim. Proin imperdiet, leo in consequat suscipit, diam arcu semper orci, ac tempus lectus tellus ac nisl. Praesent eu erat aliquet, tristique mi quis, sagittis purus.
-
-Sed cursus dapibus erat non tempus. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer eu tortor ligula. Curabitur eu gravida ipsum, vulputate tincidunt magna. Maecenas id blandit lorem. Pellentesque accumsan metus ac neque commodo aliquet. Nunc id est et sem sollicitudin ultricies. Nullam bibendum, ante eget aliquet sollicitudin, lorem lectus euismod turpis, id auctor est massa at sapien. Cras nunc libero, eleifend quis ipsum sed, sagittis accumsan odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In ac sollicitudin arcu. Donec quis tempus velit. Vestibulum imperdiet mi sollicitudin fermentum fermentum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus turpis sapien, ac iaculis urna ultricies eu. Aliquam leo nulla, fringilla vitae nibh a, dignissim volutpat sapien. Curabitur quam justo, eleifend a metus quis, gravida eleifend arcu. Nam vestibulum posuere lorem sed vehicula. Ut tincidunt velit vitae metus volutpat mollis. Donec rutrum ligula tortor, vitae gravida ex fermentum ac. Nulla luctus justo non arcu ullamcorper, et mattis elit ullamcorper. Etiam luctus urna sed nulla aliquet, eu dictum augue gravida. Aenean egestas risus eu magna lobortis pulvinar. Suspendisse faucibus diam sed eros accumsan fermentum. Duis a lacus a metus interdum varius at et metus.
-
-Praesent dictum eget felis eget tristique. Sed turpis nisi, fermentum nec interdum a, mattis ut tellus. Aenean pellentesque elit at volutpat faucibus. Donec malesuada sit amet tellus eget hendrerit. Praesent vel ipsum nec metus condimentum mattis. Nunc sed erat semper, blandit lacus nec, feugiat diam. Duis dictum nisi non ornare porttitor. Aliquam dictum sapien ut velit luctus eleifend. Phasellus eget ultricies felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer viverra, risus sed vestibulum tincidunt, quam odio laoreet nibh, sit amet convallis ex arcu ac turpis. Proin sit amet porttitor elit. Mauris et facilisis enim. Proin imperdiet, leo in consequat suscipit, diam arcu semper orci, ac tempus lectus tellus ac nisl. Praesent eu erat aliquet, tristique mi quis, sagittis purus.
-
-Sed cursus dapibus erat non tempus. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer eu tortor ligula. Curabitur eu gravida ipsum, vulputate tincidunt magna. Maecenas id blandit lorem. Pellentesque accumsan metus ac neque commodo aliquet. Nunc id est et sem sollicitudin ultricies. Nullam bibendum, ante eget aliquet sollicitudin, lorem lectus euismod turpis, id auctor est massa at sapien. Cras nunc libero, eleifend quis ipsum sed, sagittis accumsan odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In ac sollicitudin arcu. Donec quis tempus velit. Vestibulum imperdiet mi sollicitudin fermentum fermentum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus turpis sapien, ac iaculis urna ultricies eu. Aliquam leo nulla, fringilla vitae nibh a, dignissim volutpat sapien. Curabitur quam justo, eleifend a metus quis, gravida eleifend arcu. Nam vestibulum posuere lorem sed vehicula. Ut tincidunt velit vitae metus volutpat mollis. Donec rutrum ligula tortor, vitae gravida ex fermentum ac. Nulla luctus justo non arcu ullamcorper, et mattis elit ullamcorper. Etiam luctus urna sed nulla aliquet, eu dictum augue gravida. Aenean egestas risus eu magna lobortis pulvinar. Suspendisse faucibus diam sed eros accumsan fermentum. Duis a lacus a metus interdum varius at et metus.
-
-Praesent dictum eget felis eget tristique. Sed turpis nisi, fermentum nec interdum a, mattis ut tellus. Aenean pellentesque elit at volutpat faucibus. Donec malesuada sit amet tellus eget hendrerit. Praesent vel ipsum nec metus condimentum mattis. Nunc sed erat semper, blandit lacus nec, feugiat diam. Duis dictum nisi non ornare porttitor. Aliquam dictum sapien ut velit luctus eleifend. Phasellus eget ultricies felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer viverra, risus sed vestibulum tincidunt, quam odio laoreet nibh, sit amet convallis ex arcu ac turpis. Proin sit amet porttitor elit. Mauris et facilisis enim. Proin imperdiet, leo in consequat suscipit, diam arcu semper orci, ac tempus lectus tellus ac nisl. Praesent eu erat aliquet, tristique mi quis, sagittis purus.
-
-Sed cursus dapibus erat non tempus. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer eu tortor ligula. Curabitur eu gravida ipsum, vulputate tincidunt magna. Maecenas id blandit lorem. Pellentesque accumsan metus ac neque commodo aliquet. Nunc id est et sem sollicitudin ultricies. Nullam bibendum, ante eget aliquet sollicitudin, lorem lectus euismod turpis, id auctor est massa at sapien. Cras nunc libero, eleifend quis ipsum sed, sagittis accumsan odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In ac sollicitudin arcu. Donec quis tempus velit. Vestibulum imperdiet mi sollicitudin fermentum fermentum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus turpis sapien, ac iaculis urna ultricies eu. Aliquam leo nulla, fringilla vitae nibh a, dignissim volutpat sapien. Curabitur quam justo, eleifend a metus quis, gravida eleifend arcu. Nam vestibulum posuere lorem sed vehicula. Ut tincidunt velit vitae metus volutpat mollis. Donec rutrum ligula tortor, vitae gravida ex fermentum ac. Nulla luctus justo non arcu ullamcorper, et mattis elit ullamcorper. Etiam luctus urna sed nulla aliquet, eu dictum augue gravida. Aenean egestas risus eu magna lobortis pulvinar. Suspendisse faucibus diam sed eros accumsan fermentum. Duis a lacus a metus interdum varius at et metus.
-
-Praesent dictum eget felis eget tristique. Sed turpis nisi, fermentum nec interdum a, mattis ut tellus. Aenean pellentesque elit at volutpat faucibus. Donec malesuada sit amet tellus eget hendrerit. Praesent vel ipsum nec metus condimentum mattis. Nunc sed erat semper, blandit lacus nec, feugiat diam. Duis dictum nisi non ornare porttitor. Aliquam dictum sapien ut velit luctus eleifend. Phasellus eget ultricies felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer viverra, risus sed vestibulum tincidunt, quam odio laoreet nibh, sit amet convallis ex arcu ac turpis. Proin sit amet porttitor elit. Mauris et facilisis enim. Proin imperdiet, leo in consequat suscipit, diam arcu semper orci, ac tempus lectus tellus ac nisl. Praesent eu erat aliquet, tristique mi quis, sagittis purus.
-
-Sed cursus dapibus erat non tempus. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer eu tortor ligula. Curabitur eu gravida ipsum, vulputate tincidunt magna. Maecenas id blandit lorem. Pellentesque accumsan metus ac neque commodo aliquet. Nunc id est et sem sollicitudin ultricies. Nullam bibendum, ante eget aliquet sollicitudin, lorem lectus euismod turpis, id auctor est massa at sapien. Cras nunc libero, eleifend quis ipsum sed, sagittis accumsan odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In ac sollicitudin arcu. Donec quis tempus velit. Vestibulum imperdiet mi sollicitudin fermentum fermentum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut maximus turpis sapien, ac iaculis urna ultricies eu. Aliquam leo nulla, fringilla vitae nibh a, dignissim volutpat sapien. Curabitur quam justo, eleifend a metus quis, gravida eleifend arcu. Nam vestibulum posuere lorem sed vehicula. Ut tincidunt velit vitae metus volutpat mollis. Donec rutrum ligula tortor, vitae gravida ex fermentum ac. Nulla luctus justo non arcu ullamcorper, et mattis elit ullamcorper. Etiam luctus urna sed nulla aliquet, eu dictum augue gravida. Aenean egestas risus eu magna lobortis pulvinar. Suspendisse faucibus diam sed eros accumsan fermentum. Duis a lacus a metus interdum varius at et metus.
-
-Praesent dictum eget felis eget tristique. Sed turpis nisi, fermentum nec interdum a, mattis ut tellus. Aenean pellentesque elit at volutpat faucibus. Donec malesuada sit amet tellus eget hendrerit. Praesent vel ipsum nec metus condimentum mattis. Nunc sed erat semper, blandit lacus nec, feugiat diam. Duis dictum nisi non ornare porttitor. Aliquam dictum sapien ut velit luctus eleifend. Phasellus eget ultricies felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer viverra, risus sed vestibulum tincidunt, quam odio laoreet nibh, sit amet convallis ex arcu ac turpis. Proin sit amet porttitor elit. Mauris et facilisis enim. Proin imperdiet, leo in consequat suscipit, diam arcu semper orci, ac tempus lectus tellus ac nisl. Praesent eu erat aliquet, tristique mi quis, sagittis purus.
-
-Sed cursus dapibus erat non tempus. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer eu tortor ligula. Curabitur eu gravida ipsum, vulputate tincidunt magna. Maecenas id blandit lorem. Pellentesque accumsan metus ac neque commodo aliquet. Nunc id est et sem sollicitudin ultricies. Nullam bibendum, ante eget aliquet sollicitudin, lorem lectus euismod turpis, id auctor est massa at sapien. Cras nunc libero, eleifend quis ipsum sed, sagittis accumsan odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In ac sollicitudin arcu. Donec quis tempus velit. Vestibulum imperdiet mi sollicitudin fermentum fermentum.</span>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
                 </b-col>
             </b-row>
         </b-grid>
@@ -37,13 +17,30 @@ Sed cursus dapibus erat non tempus. Aliquam erat volutpat. Vestibulum ante ipsum
 </template>
 <script>
 
+const PATH = '../../../testData/pics/'
+
 export default {
     name: 'Home',
     data() {
         return{
-            
+            url: Object
         }
-    }
+    },
+    computed:{
+        getPath(){
+            return (PATH + this.url.path)
+        }
+    },
+    methods:{
+        async getImage(){
+            await fetch('http://localhost:3000/asd')
+              .then(response => response.json())
+              .then(data => this.url = data)//console.log(data));
+        }
+    },
+    created(){
+        this.getImage()
+    },
 }
 </script>
 <style scoped>
