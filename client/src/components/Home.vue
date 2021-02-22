@@ -3,7 +3,7 @@
         <b-grid>
             <b-row>
                 <b-col>
-                    <img :src="getPath" alt="picture"/>
+                    <img v-for="fileName in fileNames" :key="fileName.id" :src="getImageFromAPI + fileName" alt="picture"/>
                 </b-col>
             </b-row>
             <b-row>
@@ -17,25 +17,25 @@
 </template>
 <script>
 
-const PATH = '../../../testData/pics/'
+const URL = 'http://localhost:3000/image/'
 
 export default {
     name: 'Home',
     data() {
         return{
-            url: Object
+            fileNames: []
         }
     },
     computed:{
-        getPath(){
-            return (PATH + this.url.path)
+        getImageFromAPI(){
+            return URL
         }
     },
     methods:{
         async getImage(){
-            await fetch('http://localhost:3000/asd')
+            await fetch('http://localhost:3000/images')
               .then(response => response.json())
-              .then(data => this.url = data)//console.log(data));
+              .then(data => this.fileNames = data.files)//console.log(data));
         }
     },
     created(){
