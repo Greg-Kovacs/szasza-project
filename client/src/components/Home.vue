@@ -5,7 +5,7 @@
                 <b-col>
                     <div>
                         <b-img class="image" @click="showImageModal" v-for="fileName in fileNames" :key="fileName.id" :src="getImageFromAPI + fileName" alt="picture"/>
-                        <ImageModal :showModal="showModal"  v-if="showModal"/>
+                        <ImageModal :fileNames="fileNames" :showModal="showModal"  v-if="showModal"/>
                     </div>
                 </b-col>
             </b-row>
