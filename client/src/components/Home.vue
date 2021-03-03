@@ -1,8 +1,8 @@
 <template>
     <div>
         <b-grid>
-            <b-row >
-                <b-col class="imageRow">
+            <b-row class="imageRow">
+                <b-col>
                     <img class="image" v-for="fileName in fileNames" :key="fileName.id" :src="getImageFromAPI + fileName" alt="picture"/>
                 </b-col>
             </b-row>
@@ -57,5 +57,6 @@ export default {
     }
     .imageRow {
         content: center;
+        margin-left: 120px;
     }
 </style>
