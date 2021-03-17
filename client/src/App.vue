@@ -1,33 +1,33 @@
 <template>
   <div id="app">
-    <b-grid>
-      <b-row id="navbar">
-        <b-col>
-          <Header />
-        </b-col>
-      </b-row>
-      <b-row class="text-center" id="body">
-        <b-col>
+    <navBarHeader id="navbar"/>
+    <b-container fluid name="basegrid">
+      <b-row id="body">
+         <b-col>
           <router-view/>
         </b-col>
       </b-row>
-    </b-grid>
+    </b-container>
   </div>
 </template>
 <script>
 
-import Header from "./components/Header"
+import navBarHeader from "./components/Header"
 
 export default {
   name: 'App',
   components: {
-    Header
+    navBarHeader
   }
 }
 </script>
 <style scoped>
+#app {
+  background:gray;
+}
 
 #navbar {
+  width: 100%;
   position: sticky;
   top: 0;
   z-index:2;
