@@ -19,8 +19,8 @@ app.get('/images',async (req,res) => {
   res.send({files: fileNames})
 })
 
-app.get('/asd', (req, res) => {
-  res.send({path: "krisz2.jpg"})
+app.get('/about', (req,res) =>{
+  res.send('about')
 })
 
 app.listen(port, () => {
