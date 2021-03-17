@@ -8,7 +8,7 @@ const fs = require('fs');
 app.use('/image', express.static(images));
 
 app.get('/', (req, res) => {
-  res.send('Nyuszi kaki!')
+  res.send('')
 })
 
 app.get('/images',async (req,res) => {
