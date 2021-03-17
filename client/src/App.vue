@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header id="navbar"/>
+    <navBarHeader id="navbar"/>
     <b-container fluid name="basegrid">
       <b-row id="body">
          <b-col>
@@ -12,12 +12,12 @@
 </template>
 <script>
 
-import Header from "./components/Header"
+import navBarHeader from "./components/Header"
 
 export default {
   name: 'App',
   components: {
-    Header
+    navBarHeader
   }
 }
 </script>

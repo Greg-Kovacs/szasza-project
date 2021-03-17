@@ -1,12 +1,12 @@
 <template>
     <b-modal id="imageModalId" :hide-footer="true" :hide-header="true" size="custom" ref="imageModal" v-model="isActive">
         <div>
-            <VueHoverZoom class="image" :imageUrl="getImageFromAPI"/>
+            <vueHoverZoom class="image" :imageUrl="getImageFromAPI"/>
         </div>
     </b-modal>
 </template>
 <script>
-import  VueHoverZoom  from  'vue-hover-zoom'
+import  vueHoverZoom  from  'vue-hover-zoom'
 
 const URL = 'http://localhost:3000/image/'
 
@@ -40,7 +40,7 @@ export default {
 
     },
     components: {
-        VueHoverZoom
+        vueHoverZoom
     }
 }
 </script>

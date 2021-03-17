@@ -1,10 +1,10 @@
 <template>
     <div v-if="!fetching">
-        <ImageBlock v-for="fileName in fileNames" :key="fileName.id" :imageURL="getImageFromAPI + fileName" :id="fileNames.indexOf(fileName)" @choosedImg="choosedImg" alt="picture"/>
+        <imageBlock v-for="fileName in fileNames" :key="fileName.id" :imageURL="getImageFromAPI + fileName" :id="fileNames.indexOf(fileName)" @choosedImg="choosedImg" alt="picture"/>
     </div>
 </template>
 <script>
-import ImageBlock from './ImageBlock'
+import imageBlock from './ImageBlock'
 
 const URL = 'http://localhost:3000/image/'
 
@@ -39,7 +39,7 @@ export default {
         this.getImageNames()
     },
     components: {
-        ImageBlock
+        imageBlock
     }
     
 }

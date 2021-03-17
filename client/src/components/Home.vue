@@ -3,17 +3,16 @@
         <b-row class="imageRow">
             <b-col name="ImageList">
                 <div>
-                    <ImageList @showImg="showImageModal"/>
-                    <ImageModal ref="choosedImg" :imageUrl="choosedImgName"  v-if="showModal" />
+                    <imageList @showImg="showImageModal"/>
+                    <imageModal ref="choosedImg" :imageUrl="choosedImgName"  v-if="showModal" />
                  </div>
              </b-col>
         </b-row>
-    </div>
-    
+    </div> 
 </template>
 <script>
-import ImageList from './image_components/ImageList.vue'
-import ImageModal from './image_components/ImageModal'
+import imageList from './image_components/ImageList.vue'
+import imageModal from './image_components/ImageModal'
 
 
 export default {
@@ -34,8 +33,8 @@ export default {
         }
     },
     components: {
-        ImageModal,
-        ImageList
+        imageModal,
+        imageList
     }
 
 }
