@@ -8,11 +8,6 @@
                  </div>
              </b-col>
         </b-row>
-        <b-row>
-            <b-col name="test text">
-                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
-            </b-col>
-        </b-row>
     </div>
     
 </template>
