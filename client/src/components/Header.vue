@@ -36,10 +36,10 @@ export default {
     },
     methods: {
       navigateToFacebook () {
-        window.location.href = "https://www.facebook.com/makeupbyalexandraszabo"
+        window.location.href = process.env.VUE_APP_FACEBOOK_LINK
       },
       navigateToInstagram () {
-        window.location.href = "https://www.instagram.com/makeupbyalexandraszabo/"
+        window.location.href = process.env.VUE_APP_INSTAGRAM_LINK
       },
       navigateToAbout() {
         this.$router.push({ name: 'About'}).catch(error => {
@@ -62,10 +62,9 @@ export default {
             }
         });
       }
-
     },
     created() {
-        
+
     },
     components: {
       BIconFacebook,
