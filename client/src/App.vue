@@ -24,6 +24,7 @@ export default {
 <style scoped>
 #app {
   background:gray;
+  position: relative;
 }
 
 #navbar {

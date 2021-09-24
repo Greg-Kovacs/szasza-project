@@ -22,22 +22,20 @@ export default {
     },
     computed: {
         getImageFromAPI(){
+            if(this.imageUrl.includes('album/')) {
+                const datas = this.imageUrl.split('/')
+                return `http://localhost:3000/albums/${datas[1]}/${datas[2]}`
+            }
             return URL + this.imageUrl
         }
     },
     methods: {
-        setIsActiveToTrue() {
-        },
         showModal() {
             this.$refs['imageModal'].show()
         }
     },
     mounted () {
         this.showModal()
-    },
-    created() {
-        this.setIsActiveToTrue()
-
     },
     components: {
         vueHoverZoom
